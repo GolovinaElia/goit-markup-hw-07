@@ -21,7 +21,6 @@
 }
 .join {
   margin-left: 70px;
-  padding-top: 12px;
   &-name {
 display: flex;
 font-style: normal;
@@ -37,7 +36,6 @@ color: $secondary-color;
 }
 .subscribe {
   margin-left: 93px;
-  padding-top: 12px;
   &-form {
   display: flex;
 }
@@ -48,7 +46,7 @@ line-height: 1.143;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: $secondary-color;
-padding-bottom: 20px;
+margin-bottom: 20px;
 }
 }
 .subscribe-form-input {
@@ -62,6 +60,7 @@ padding-left: 16px;
 background-color: transparent;
 &:focus {
 color: $secondary-color;
+outline: none;
 }
 }
 .btn-submit {
@@ -79,6 +78,7 @@ color: $secondary-color;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 margin-left: 12px;
+border: none;
 &::after {
   content: "";   
   width: 24px;
